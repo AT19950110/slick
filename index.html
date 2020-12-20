@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/slick-theme.css" rel="stylesheet" type="text/css"> 
+    <link href="css/slick.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+
+    <ul class = "slider">
+      <li><img src="https://www.jungleocean.com/demo/jquery-slick/images/1.jpg" alt=""></li>
+      <li><img src="https://www.jungleocean.com/demo/jquery-slick/images/2.jpg" alt=""></li>
+      <li><img src="https://www.jungleocean.com/demo/jquery-slick/images/3.jpg" alt=""></li>
+      <li><img src="https://www.jungleocean.com/demo/jquery-slick/images/4.jpg" alt=""></li>
+    </ul>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.js"></script>
+    <script>
+      $(document).ready(function(){
+      $('.slider').slick({
+        dots: true,
+        autoplay: true
+      });
+    });
+    </script>
+
+  </body>
+</html>
